@@ -1,0 +1,37 @@
+/* index.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.performance-analytics-page {
+  padding: 20px;
+}
+
+.performance-filters {
+  margin-bottom: 20px;
+}
+
+.performance-charts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.performance-charts canvas {
+  width: 45%;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
